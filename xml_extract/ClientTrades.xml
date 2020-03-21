@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kasmResponse xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <ack>true</ack>
+        <flowElapsedTime>31</flowElapsedTime>
+        <startTime>2018-11-22T08:30:26.698Z</startTime>
+        <endTime>2018-11-22T08:30:26.729Z</endTime>
+    </header>
+    <errors/>
+    <contents>
+        <content xsi:type="trade" id="03696-BUY" previousRevisionNumber="409958" revisionNumber="409959">
+            <account xsi:type="transientRef" desc="" ref="PA-4003-222"/>
+            <buySell>BUY</buySell>
+            <deal xsi:type="transientRef" ref="03696"/>
+            <externalTradeIdentifier>S16061320-2</externalTradeIdentifier>
+            <lastUpdated>2018-11-20T14:36:09.854Z</lastUpdated>
+            <product xsi:type="swap">
+                <agreement>ISDA2006</agreement>
+                <agreementType>ISDA</agreementType>
+                <calendar xsi:type="transientRef" ref="PLN"/>
+                <effectiveDate>2016-03-08</effectiveDate>
+                <fees/>
+                <paySwapStream xsi:type="floatingRateStream">
+                    <accrualBusinessDayConvention>MODFOLLOWING</accrualBusinessDayConvention>
+                    <accrualCalendar xsi:type="transientRef" ref="PLN"/>
+                    <compoundingMethod>NONE</compoundingMethod>
+                    <currency xsi:type="transientRef" ref="PLN"/>
+                    <dateGenerationRule>FORWARD</dateGenerationRule>
+                    <dayCountFraction>CONV_ACT_365_FIXED</dayCountFraction>
+                    <effectiveDate>2016-03-08</effectiveDate>
+                    <expiryDate>2026-03-08</expiryDate>
+                    <finalPrincipalExchange>false</finalPrincipalExchange>
+                    <floatingTermStructure xsi:type="transientRef"/>
+                    <frequency>
+                        <period>MONTH</period>
+                        <periodMultiplier>6</periodMultiplier>
+                    </frequency>
+                    <fullFirstCoupon>false</fullFirstCoupon>
+                    <initialPrincipalExchange>false</initialPrincipalExchange>
+                    <longFinalStub>false</longFinalStub>
+                    <notional>100000000</notional>
+                    <payReceive>PAY</payReceive>
+                    <paymentBusinessDayConvention>MODFOLLOWING</paymentBusinessDayConvention>
+                    <paymentCalendar xsi:type="transientRef" ref="PLN"/>
+                    <refixCalendar xsi:type="transientRef" ref="PLN"/>
+                    <refixDateOffset>
+                        <period>DAY</period>
+                        <periodMultiplier>2</periodMultiplier>
+                    </refixDateOffset>
+                    <interestRateDef xsi:type="transientRef" ref="PLN_WIBOR_6M"/>
+                    <spread>0</spread>
+                    <streamType>FLOAT</streamType>
+                    <termStructureConfig xsi:type="transientRef"/>
+                </paySwapStream>
+                <productType>Swap</productType>
+                <receiveSwapStream xsi:type="fixedRateStream">
+                    <accrualBusinessDayConvention>MODFOLLOWING</accrualBusinessDayConvention>
+                    <accrualCalendar xsi:type="transientRef" ref="PLN"/>
+                    <currency xsi:type="transientRef" ref="PLN"/>
+                    <dateGenerationRule>FORWARD</dateGenerationRule>
+                    <dayCountFraction>CONV_ACT_ACT</dayCountFraction>
+                    <effectiveDate>2016-03-08</effectiveDate>
+                    <expiryDate>2026-03-08</expiryDate>
+                    <finalPrincipalExchange>false</finalPrincipalExchange>
+                    <frequency>
+                        <period>YEAR</period>
+                        <periodMultiplier>1</periodMultiplier>
+                    </frequency>
+                    <fullFirstCoupon>false</fullFirstCoupon>
+                    <initialPrincipalExchange>false</initialPrincipalExchange>
+                    <longFinalStub>false</longFinalStub>
+                    <notional>100000000</notional>
+                    <payReceive>RECEIVE</payReceive>
+                    <paymentBusinessDayConvention>MODFOLLOWING</paymentBusinessDayConvention>
+                    <paymentCalendar xsi:type="transientRef" ref="PLN"/>
+                    <rate>0.0227875</rate>
+                    <streamType>FIXED</streamType>
+                    <termStructureConfig xsi:type="transientRef"/>
+                </receiveSwapStream>
+                <spotBdc>FOLLOWING</spotBdc>
+                <tradedRate>0.0227875</tradedRate>
+            </product>
+            <tradeDate>2016-03-04</tradeDate>
+            <tradeState>ACCEPTED</tradeState>
+            <trader xsi:type="transientRef"/>
+        </content>
+        <content xsi:type="trade" id="03697-SELL" previousRevisionNumber="409974" revisionNumber="409975">
+            <account xsi:type="transientRef" desc="" ref="PA-4003-222"/>
+            <buySell>SELL</buySell>
+            <deal xsi:type="transientRef" ref="03697"/>
+            <externalTradeIdentifier>S16061320-2</externalTradeIdentifier>
+            <lastUpdated>2018-11-20T14:36:14.729Z</lastUpdated>
+            <product xsi:type="swap">
+                <agreement>ISDA2006</agreement>
+                <agreementType>ISDA</agreementType>
+                <calendar xsi:type="transientRef" ref="PLN"/>
+                <effectiveDate>2017-06-12</effectiveDate>
+                <fees/>
+                <paySwapStream xsi:type="floatingRateStream">
+                    <accrualBusinessDayConvention>MODFOLLOWING</accrualBusinessDayConvention>
+                    <accrualCalendar xsi:type="transientRef" ref="PLN"/>
+                    <compoundingMethod>NONE</compoundingMethod>
+                    <currency xsi:type="transientRef" ref="PLN"/>
+                    <dateGenerationRule>FORWARD</dateGenerationRule>
+                    <dayCountFraction>CONV_ACT_365_FIXED</dayCountFraction>
+                    <effectiveDate>2017-06-12</effectiveDate>
+                    <expiryDate>2022-06-12</expiryDate>
+                    <finalPrincipalExchange>false</finalPrincipalExchange>
+                    <floatingTermStructure xsi:type="transientRef"/>
+                    <frequency>
+                        <period>MONTH</period>
+                        <periodMultiplier>6</periodMultiplier>
+                    </frequency>
+                    <fullFirstCoupon>false</fullFirstCoupon>
+                    <initialPrincipalExchange>false</initialPrincipalExchange>
+                    <longFinalStub>false</longFinalStub>
+                    <notional>100000000</notional>
+                    <payReceive>PAY</payReceive>
+                    <paymentBusinessDayConvention>MODFOLLOWING</paymentBusinessDayConvention>
+                    <paymentCalendar xsi:type="transientRef" ref="PLN"/>
+                    <refixCalendar xsi:type="transientRef" ref="PLN"/>
+                    <refixDateOffset>
+                        <period>DAY</period>
+                        <periodMultiplier>2</periodMultiplier>
+                    </refixDateOffset>
+                    <interestRateDef xsi:type="transientRef" ref="PLN_WIBOR_6M"/>
+                    <spread>0</spread>
+                    <streamType>FLOAT</streamType>
+                    <termStructureConfig xsi:type="transientRef"/>
+                </paySwapStream>
+                <productType>Swap</productType>
+                <receiveSwapStream xsi:type="fixedRateStream">
+                    <accrualBusinessDayConvention>MODFOLLOWING</accrualBusinessDayConvention>
+                    <accrualCalendar xsi:type="transientRef" ref="PLN"/>
+                    <currency xsi:type="transientRef" ref="PLN"/>
+                    <dateGenerationRule>FORWARD</dateGenerationRule>
+                    <dayCountFraction>CONV_ACT_ACT</dayCountFraction>
+                    <effectiveDate>2017-06-12</effectiveDate>
+                    <expiryDate>2022-06-12</expiryDate>
+                    <finalPrincipalExchange>false</finalPrincipalExchange>
+                    <frequency>
+                        <period>YEAR</period>
+                        <periodMultiplier>1</periodMultiplier>
+                    </frequency>
+                    <fullFirstCoupon>false</fullFirstCoupon>
+                    <initialPrincipalExchange>false</initialPrincipalExchange>
+                    <longFinalStub>false</longFinalStub>
+                    <notional>100000000</notional>
+                    <payReceive>RECEIVE</payReceive>
+                    <paymentBusinessDayConvention>MODFOLLOWING</paymentBusinessDayConvention>
+                    <paymentCalendar xsi:type="transientRef" ref="PLN"/>
+                    <rate>0.02267</rate>
+                    <streamType>FIXED</streamType>
+                    <termStructureConfig xsi:type="transientRef"/>
+                </receiveSwapStream>
+                <spotBdc>FOLLOWING</spotBdc>
+                <tradedRate>0.02267</tradedRate>
+            </product>
+            <tradeDate>2017-06-08</tradeDate>
+            <tradeState>ACCEPTED</tradeState>
+            <trader xsi:type="transientRef"/>
+        </content>
+        <content xsi:type="trade" id="03698-BUY" previousRevisionNumber="409989" revisionNumber="409990">
+            <account xsi:type="transientRef" desc="" ref="PA-4003-222"/>
+            <buySell>BUY</buySell>
+            <deal xsi:type="transientRef" ref="03698"/>
+            <externalTradeIdentifier>id_strony1</externalTradeIdentifier>
+            <lastUpdated>2018-11-20T14:36:19.729Z</lastUpdated>
+            <product xsi:type="fra">
+                <agreement>ISDA2006</agreement>
+                <agreementType>ISDA</agreementType>
+                <calendar xsi:type="transientRef" ref="PLN"/>
+                <currency xsi:type="transientRef" ref="PLN"/>
+                <dayCountFraction>CONV_ACT_365_FIXED</dayCountFraction>
+                <effectiveBusinessDayConvention>MODFOLLOWING</effectiveBusinessDayConvention>
+                <effectiveCalendar xsi:type="transientRef" ref="PLN"/>
+                <effectiveDate>2019-04-18</effectiveDate>
+                <expiryBusinessDayConvention>MODFOLLOWING</expiryBusinessDayConvention>
+                <expiryCalendar xsi:type="transientRef" ref="PLN"/>
+                <expiryDate>2019-10-18</expiryDate>
+                <fees/>
+                <floatingTermStructure xsi:type="transientRef"/>
+                <notional>1000000000</notional>
+                <productType>Fra</productType>
+                <interestRateDef xsi:type="transientRef" ref="PLN_WIBOR_6M"/>
+                <spotBdc>NONE</spotBdc>
+                <termStructureConfig xsi:type="transientRef"/>
+                <tradedRate>0.0216</tradedRate>
+            </product>
+            <tradeDate>2017-10-16</tradeDate>
+            <tradeState>ACCEPTED</tradeState>
+            <trader xsi:type="transientRef"/>
+        </content>
+    </contents>
+</kasmResponse>
